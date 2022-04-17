@@ -1,0 +1,31 @@
+body{
+    background-color:(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-items:center ;
+    height: fit-content;
+}
+#box1{
+background-color: burlywood; display: flex;
+flex-direction: row;
+height: 100%;
+width: 50%;
+justify-content: start;
+}
+#box2{
+    background-color: orangered;display: flex;
+    flex-direction: column;
+    flex-grow: inherit;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+    height: 100%;
+}
+#box3{
+    background-color: aqua;display: flex;
+    flex-direction: column;
+    flex-grow: inherit;
+    justify-content: center;
+    height: 90%;
+    width: 100%;
+}
