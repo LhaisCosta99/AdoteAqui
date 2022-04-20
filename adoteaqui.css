@@ -116,4 +116,13 @@ footer{
     width: 100%;
     height: 150px;
     background-color: rgb(78, 47, 18);
+    text-align: center;
+
+}
+footer{
+display: flex;
+text-align: center;
+height: max-content;
+width: 100%;
+justify-content: space-around;
 }
