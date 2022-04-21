@@ -29,10 +29,11 @@ header {
 header > .box1 > img {
     height: 250px;
     margin: 5px;
-
 }
-header > div:hover > logoAdoteAqui {
-    transition: 3s;
+:hover > .box1 > img{
+    height: 300px;
+    transition:3s ;
+    
 }
 
 
