@@ -27,9 +27,14 @@ header {
     justify-content: start;
 }
 header > .box1 > img {
-    height: 200px;
+    height: 250px;
     margin: 5px;
+
 }
+header > div:hover > logoAdoteAqui {
+    transition: 3s;
+}
+
 
 nav{
     width: 50%;
@@ -125,4 +130,7 @@ text-align: center;
 height: max-content;
 width: 100%;
 justify-content: space-around;
+color:rgb(38, 175, 175) ;
+font-size: x-large;
+font-family: Arial, Helvetica, sans-serif;
 }
