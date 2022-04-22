@@ -158,7 +158,7 @@ a {
 }
 
 
-@media(max-width:400px) {
+@media(max-width:600px) {
     header {
         flex-direction: column;
         align-items: center;
